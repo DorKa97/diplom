@@ -3,9 +3,9 @@
   font-style: normal;
   font-weight: 400;
   src: local('OpenSans'),
-  url('/fonts/OpenSans-Regular.woff2') format('woff2'), 
-  url('/fonts/OpenSans-Regular.woff') format('woff'),
-  url('/fonts/OpenSans-Regular.ttf') format('ttf');
+  url('fonts/OpenSans-Regular.woff2') format('woff2'), 
+  url('fonts/OpenSans-Regular.woff') format('woff'),
+  url('fonts/OpenSans-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -13,9 +13,9 @@
   font-style: normal;
   font-weight: 700;
   src: local('OpenSans'),
-  url('/fonts/OpenSans-Bold.woff2') format('woff2'), 
-  url('/fonts/OpenSans-Bold.woff') format('woff'),
-  url('/fonts/OpenSans-Bold.ttf') format('ttf');
+  url('fonts/OpenSans-Bold.woff2') format('woff2'), 
+  url('fonts/OpenSans-Bold.woff') format('woff'),
+  url('fonts/OpenSans-Bold.ttf') format('ttf');
 }
 
 :root {
@@ -38,7 +38,7 @@ a {
 }
 
 .header {
-  background-image: url('/img/banner-bg.jpg');
+  background-image: url('img/banner-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -176,7 +176,7 @@ a {
 }
 
 .trend-one {
-  background: url('/img/trend1.jpg');
+  background: url('img/trend1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -185,7 +185,7 @@ a {
 }
 
 .trend-two {
-  background: url('/img/trend2.jpg');
+  background: url('img\trend2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -193,7 +193,7 @@ a {
 }
 
 .trend-three {
-  background: url('/img/trend3.jpg');
+  background: url(\img\trend3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -201,7 +201,7 @@ a {
 }
 
 .trend-four {
-  background: url('/img/trend4.jpg');
+  background: url('img/trend4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -434,7 +434,7 @@ a {
   height: 48px;
   padding-right: 48px;
   background-color: #b59f5b;
-  background-image: url('/svg/search.svg');
+  background-image: url('svg/search.svg');
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
@@ -568,15 +568,15 @@ a {
 }
 
 .social-link-dribbble {
-  background-image: url(/svg/001-dribbble.svg);
+  background-image: url(svg/001-dribbble.svg);
 }
 
 .social-link-pinterest {
-  background-image: url(/svg/002-pinterest.svg);
+  background-image: url(svg/002-pinterest.svg);
 }
 
 .social-link-tumblr {
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(svg/003-tumblr.svg);
 }
 
 .social-item:nth-child(n+2) {
@@ -729,7 +729,7 @@ a {
  box-sizing: border-box;
  width: 100%;
  height: 48px;
- background: url(/svg/form-arrows.svg);
+ background: url(svg/form-arrows.svg);
  background-repeat: no-repeat;
  background-position: center right 18px;
  background-size: 9px;
@@ -785,7 +785,7 @@ input[type=radio] {
 }
 
 input[type=radio]+label {
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-size: 15px;
   padding-left: 20px;
@@ -793,14 +793,14 @@ input[type=radio]+label {
 }
 
 input[type=radio]:checked+label {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(svg/form-circle.svg);
   background-repeat: no-repeat;
   background-size: 15px;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
-    background-image: url('/img/banner-bg-tablet.jpg');
+    background-image: url('img/banner-bg-tablet.jpg');
     min-height: 390px;
   }
   .navigation {
@@ -945,7 +945,7 @@ input[type=radio]:checked+label {
 
 @media (max-width: 640px) {
   .header {
-    background-image: url('/img/banner-mobile.jpg');
+    background-image: url('img/banner-mobile.jpg');
     min-height: 638px;
   }
 
