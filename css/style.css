@@ -923,6 +923,10 @@ input[type=radio]:checked+label {
   .product-name {
     font-size: 17px;
   }
+
+  .copyrights {
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
@@ -1026,13 +1030,13 @@ input[type=radio]:checked+label {
   }
 
   .popup-content {
-  position: relative;
-  z-index: 6;
-  background: #fff;
-  width: 330px;
-  height: 545px;
-  padding: 30px 25px;
-  box-sizing: border-box;
+    position: relative;
+    z-index: 6;
+    background: #fff;
+    width: 330px;
+    height: 545px;
+    padding: 30px 25px;
+    box-sizing: border-box;
   }
 }
 
